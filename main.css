@@ -1,0 +1,54 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.main {
+  background: url("./images//header.jpg");
+  height: 800px;
+}
+
+.main .header {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.main .header .navbar-toggler{
+    border-color: white;
+}
+
+.main .header .container {
+  min-height: 140px;
+}
+
+.main .content {
+  height: 660px;
+}
+
+.main .content p{
+    background: rgba(0, 0, 0, 0.3);
+    line-height: 30px;
+}
+
+.menu li{
+    list-style: none;
+}
+
+#logo{
+    z-index: 999;
+    font-size: 30px;
+}
+
+.services{
+    background: #4bcaff;
+}
+
+.services hr{
+    background: white;
+}
+
+.service-detail .title{
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
